@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Slide-puzzle</title>
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Luis' Slide Puzzle</h1>
+    <div class="main-container">
+        <table class="slidepuzzle-container">
+            <tr class="row">
+                <td id="cell11" class="cuadro1"></td>
+                <td id="cell12" class="cuadro2"></td>
+                <td id="cell13" class="cuadro3"></td>
+            </tr>
+            <tr class="row">
+                <td id="cell21" class="cuadro4"></td>
+                <td id="cell22" class="cuadro5"></td>
+                <td id="cell23" class="cuadro6"></td>
+            </tr>
+            <tr class="row">
+                <td id="cell31" class="cuadro7"></td>
+                <td id="cell32" class="cuadro8"></td>
+                <td id="cell33" class="cuadro9"></td>
+            </tr>
+        </table>
+
+        <button onclick="shufflePieces();">New Game!</button>
+    </div>
+    <!-- Javascript file import for pieces to move -->
+    <script src="./index.js" type="text/javascript"></script>
+</body>

@@ -1,0 +1,110 @@
+body {
+    background: #aaaaaa;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    align-self: center;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #6b6b6b;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #404040;
+    transform: translateY(4px);
+}
+
+.slidepuzzle-container {
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0, 50%);
+    border-spacing: 0;
+}
+
+.cuadro1,
+.cuadro2,
+.cuadro3,
+.cuadro4,
+.cuadro5,
+.cuadro6,
+.cuadro7,
+.cuadro8,
+.cuadro9 {
+    width: 119px;
+    height: 119px;
+    border: 1px solid black;
+    background: url(./smileyface.png);
+    background-size: 360px;
+    background-color: black;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.cuadro1:hover,
+.cuadro2:hover,
+.cuadro3:hover,
+.cuadro4:hover,
+.cuadro5:hover,
+.cuadro6:hover,
+.cuadro7:hover,
+.cuadro8:hover {
+    background-color: white;
+}
+
+.cuadro1 {
+    background-position: left top;
+}
+
+.cuadro2 {
+    background-position: center top;
+}
+
+.cuadro3 {
+    background-position: top right;
+}
+
+.cuadro4 {
+    background-position: left center;
+}
+
+.cuadro5 {
+    background-position: center center;
+}
+
+.cuadro6 {
+    background-position: center right;
+}
+
+.cuadro7 {
+    background-position: left bottom;
+}
+
+.cuadro8 {
+    background-position: center bottom;
+}
+
+.cuadro9 {
+    background: rgb(36, 37, 37);
+    cursor: default;
+}
