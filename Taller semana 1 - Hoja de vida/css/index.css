@@ -1,0 +1,222 @@
+.main-container {
+  top: 10%;
+  left: 10%;
+  /* white-space: nowrap; */
+}
+.personal-info {
+  position: absolute;
+  bottom: 0;
+}
+.personal-info h1 {
+  line-height: 3rem;
+  margin-bottom: 0;
+}
+.personal-info h1 span {
+  font-size: 1rem;
+  display: block;
+  color: var(--c-primary);
+}
+.personal-info ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 20%;
+}
+.personal-info ul li {
+  width: 10%;
+  justify-content: center;
+  display: flex;
+}
+.personal-info ul li a {
+  font-size: 1.2rem;
+  transition: 0.5s;
+  color: var(--c-white);
+}
+.personal-info ul li a:hover {
+  transform: scale(1.5);
+}
+.vertical-list {
+  list-style: none;
+  font-size: 1.4rem;
+}
+.vertical-list li {
+  cursor: pointer;
+  height: 20%;
+  justify-content: center;
+  display: flex;
+  transition: 0.5s;
+  align-items: center;
+}
+.vertical-list li:hover {
+  transform: scale(1.6);
+}
+.vertical-list li.active:hover {
+  transform: scale(1.6);
+}
+.vertical-list li.active {
+  transform: scale(1.3);
+  color: var(--c-primary);
+}
+.outside {
+  top: -100%;
+}
+.panel {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 0;
+}
+.panel.active {
+  width: 100%;
+  padding: 1rem 3rem;
+}
+.panel span {
+  font-size: 1.3rem;
+}
+.panel p {
+  color: var(--c-grey);
+}
+h2 {
+  font-size: 2rem;
+}
+.info-item {
+  line-height: 1.67;
+  color: var(--c-primary);
+  margin-right: 15px;
+  font-size: 1rem;
+}
+.info-item:not(:last-child)::after {
+  content: "/";
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.67;
+  color: var(--c-grey);
+  opacity: 0.5;
+  padding-left: 0.8rem;
+}
+hr {
+  border-color: var(--c-grey);
+  opacity: 0.25;
+}
+.progress {
+  position: relative;
+  margin: 1.2rem;
+  margin-top: 0rem;
+  float: left;
+  text-align: center;
+  color: var(--c-primary);
+}
+.progress .barOverflow {
+  position: relative;
+  width: 9rem;
+  height: 90px;
+  margin-bottom: -3rem;
+  overflow: hidden;
+}
+.barOverflow .bar {
+  position: absolute;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 60%;
+  box-sizing: border-box;
+  border: 10px solid var(--c-soft-grey);
+  border-bottom-color: var(--c-primary);
+  border-right-color: var(--c-primary);
+  transform: rotate(calc(45deg + 0deg * 1.8));
+  transition: 5s;
+}
+.progress .barOverflow .bar.pnone {
+  border-bottom-color: var(--c-soft-grey);
+  border-right-color: var(--c-soft-grey);
+}
+.progress .barOverflow .bar.por0 {
+  border-bottom-color: var(--c-soft-grey);
+  border-right-color: var(--c-soft-grey);
+  transform: rotate(calc(45deg + 0deg * 1.8));
+}
+.progress .barOverflow .bar.por10 {
+  transform: rotate(calc(45deg + 10deg * 1.8));
+}
+.progress .barOverflow .bar.por20 {
+  transform: rotate(calc(45deg + 20deg * 1.8));
+}
+.progress .barOverflow .bar.por30 {
+  transform: rotate(calc(45deg + 30deg * 1.8));
+}
+.progress .barOverflow .bar.por40 {
+  transform: rotate(calc(45deg + 40deg * 1.8));
+}
+.progress .barOverflow .bar.por50 {
+  transform: rotate(calc(45deg + 50deg * 1.8));
+}
+.progress .barOverflow .bar.por60 {
+  transform: rotate(calc(45deg + 60deg * 1.8));
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 0.4rem;
+  background-color: var(--c-grey);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline .content {
+  padding: 1rem 2rem;
+  background-color: var(--c-semi-grey);
+  position: relative;
+}
+.timeline .content h2 {
+  font-size: 1.5rem;
+}
+.timeline .content h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: var(--c-primary);
+}
+.timeline .content h4 {
+  font-size: 0.9rem;
+  margin: 0;
+}
+.timeline .content p {
+  color: var(--c-light-grey);
+}
+
+.timeline .container {
+  position: relative;
+  background-color: var(--c-grey);
+  width: 50%;
+}
+
+.timeline .container::after {
+  content: "";
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  right: -1.2rem;
+  background-color: var(--c-grey);
+  border: 0.4rem solid var(--c-semi-grey);
+  top: 1rem;
+  border-radius: 50%;
+  z-index: 1;
+}
+.timeline .container:not(:first-child) {
+  margin-top: -5rem;
+}
+
+
+.timeline .right {
+  left: 50%;
+}
+.timeline  .right::after {
+  left: -1.2rem;
+}
