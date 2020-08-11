@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    /*Usualmente se usa Roboto o Monserrat*/
+}
+
+header {
+    overflow: hidden;
+    background-color: #2980b9;
+    padding: 20px 10px;
+}
+
+header a {
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+header a:hover {
+    background-color: #eeeeee;
+    color: black;
+}
+
+header .links {
+    float: right;
+}
+
+.main_container {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-template-rows: repeat(auto, [row] auto);
+
+    text-align: center;
+    align-items: center;
+}
+
+.name {
+    grid-column: col 1 / span 12;
+    grid-row: row 1 / span 1;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+.imagen {
+    grid-column: col 1 / span 12;
+    grid-row: row 2 / span 1;
+}
+
+.imagen img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.CV {
+    margin: auto;
+    grid-column: col 4 / span 6;
+    grid-row: row 3 / span 1;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+.CV ul {
+    text-align: center;
+    list-style: none;
+}
+
+.school {
+    grid-row: row 4 / span 1;
+    grid-column: col 4 / span 6;
+    padding-top: 25px;
+}
+
+.images-extracurricular {
+    margin: auto;
+    grid-column: col 1 / span 12;
+    grid-row: row 4 / span 1;
+    text-align: center;
+    align-content: center;
+}
+
+.images-extracurricular img {
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+footer {
+    display: block;
+    background-color: #2980b9;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
