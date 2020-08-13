@@ -1,0 +1,165 @@
+body{
+  /* background-color: #00F6FF; */
+  font-family: sans-serif;
+  background-color: #3e4a4eed;
+}
+
+h1, h2{
+  font-weight: normal;
+}
+
+h3{
+  margin: 10px;
+  font-weight: normal;
+  font-size: 32px;
+}
+
+#high-container{
+  width: 800px;
+  margin: auto;
+  /* background-color: #00F6FF; */
+  /* border-radius: 20px; */
+  /* border-color: cyan; */
+  /* border: 3px solid #00F6FF; */
+  /* padding: 20px; */
+  /* display:flex; */
+  /* flex-direction: column; */
+}
+
+#profile-photo{
+  width:200px;
+  height:200px;
+  
+  border-radius: 100px;
+  display: block;
+
+  /* margin: auto; */
+  /* display: inline-block; */
+}
+
+.other-image{
+  width:100px;
+  height: 100px;
+}
+
+#left-side{
+  width:28%;
+  min-height:100%;
+  padding: 1%;
+  /* display:inline-block; */
+  background-color: #3F4A4E;
+  color:white;
+}
+
+#right-side{
+  /* width:67%; */
+  flex:1;
+  background-color: #929ca0;
+}
+
+#top-side{
+  /* display: flex; */
+  min-width:100%;
+  background-color: #2B363A;
+  /* flex-direction: row; */
+}
+
+.horizontal{
+  /* display:inline-block; */
+  display:flex;
+  flex-direction: row;
+}
+
+.vertical{
+  display:flex;
+  flex-direction: column;
+}
+
+#top-left{
+  /* display: inline; */
+  width:30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#top-right{
+  /* display: inline; */
+  flex:1;
+  padding: 20px;
+  color: white;
+}
+
+#bottom-side{
+  /* display:flex; */
+  /* flex-direction: row; */
+}
+
+#contact-data li{
+  font-size: x-small;
+}
+
+p{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.body-list{
+  padding: 0 32px;
+}
+
+.course-name{
+  font-size: 24px;
+}
+
+.course-place{
+  font-size: 16px;
+}
+
+.course-time{
+  font-size: 12px;
+}
+
+.course-card{
+  margin: 6px 0;
+}
+
+.course-data{
+  margin: 0 20px;
+}
+
+.align-by-center{
+  align-items: center;
+}
+
+.tech-image-parent{
+  background-color: black;
+  border-radius: 10px;
+  width:150px;
+  height:150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-image{
+  width:90%;
+  /* height:100%; */
+}
+
+.tech-card{
+  width:200px;
+  margin: 30px 0;
+}
+
+.tech-title{
+  font-size: 30px;
+  color: #2B363A;
+}
+
+.tech-sub{
+  font-size: 12px;
+  color: #2B363A;
+}

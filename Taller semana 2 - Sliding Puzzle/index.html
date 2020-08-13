@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='style.css'>
+  <script src='index.js'></script>
+  <title>Slide Puzzle</title>
+</head>
+<body>
+  <div id='contain'>
+    <div id='puzzle'>
+      <div id='border'>
+
+      </div>
+    </div>
+    
+    <div>
+      <span>Seleccione un tamaño para jugar</span><br>
+      <input id ='rows' name="rows" type="number" min="3" max="20"> X <input id='cols' name="cols" type="number" min="3" max="20">
+      <button onclick="setupGame()">Go!</button>
+    </div>
+  </div>
+  <div id = 'modal1' class='modal' onclick="closeModal()">
+    <div class='modal-content'>
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p>
+        <strong>¡Bienvenido al Slide puzzle!</strong><br>
+        Controles:<br>
+        Para mover las piezas del puzzle, seleccione con el mouse una pieza que colinde con el agujero del puzzle.<br>
+        Alternativamente, puede usar las flechas o WASD.<br>
+        Seleccione un tamaño de puzzle y presione Go para generar el nivel.<br>
+        ¡Diviértase!<br>
+        Autor: Federico Reina Vinchira
+      </p>
+    </div>
+  </div>
+  <div id = 'modal2' class='modal' onclick="closeModal2()">
+    <div class='modal-content' id='modal-content2'>
+      <p>
+        ¡Ganaste! Presiona en cualquier parte para continuar
+      </p>
+      <img src='./gracias-bob.png' alt='Gracias'>
+    </div>
+  </div>
+</body>
+</html>
