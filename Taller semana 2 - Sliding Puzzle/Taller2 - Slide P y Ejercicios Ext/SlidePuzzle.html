@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Slide.css" />
+    <title>Slide Puzzle</title>
+</head>
+
+<body>
+    <div class="Title">
+        <h1>Slide Puzzle</h1>
+    </div>
+    <div class="Game">
+        <table id="Matriz">
+            <tr>
+                <td><img class="1,1" id="1,1" src="Imagen/Partes/fila-1-col-1.jpg" height="120" width="213" onclick="f()"></td>
+                <td><img class="1,2" id="1,2" src="Imagen/Partes/fila-1-col-2.jpg" height="120" width="213" onclick="f()"></td>
+                <td><img class="1,3" id="1,3" src="Imagen/Partes/fila-1-col-3.jpg" height="120" width="213" onclick="f()"></td>
+            </tr>
+            <tr>
+                <td><img class="2,1" id="2,1" src="Imagen/Partes/fila-2-col-1.jpg" height="120" width="213" onclick="f()"></td>
+                <td><img class="2,2" id="2,2" src="Imagen/Partes/fila-2-col-2.jpg" height="120" width="213" onclick="f()"></td>
+                <td><img class="2,3" id="2,3" src="Imagen/Partes/fila-2-col-3.jpg" height="120" width="213" onclick="f()"></td>
+            </tr>
+            <tr>
+                <td><img class="3,1" id="3,1" src="Imagen/Partes/fila-3-col-1.jpg" height="120" width="213" onclick="f()"></td>
+                <td><img class="3,2" id="3,2" src="Imagen/Partes/fila-3-col-2.jpg" height="120" width="213" onclick="f()"></td>
+                <td><img class="3,3" id="3,3" src="Imagen/Partes/fila-3-col-3.jpg" height="120" width="213" onclick="f()"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="Buttons">
+        <button class="button" type="button" onclick="jugar()">Jugar</button>
+    </div>
+    <script type="text/javascript" src="./Slide.js"></script>
+</body>
+
+</html>
