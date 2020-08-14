@@ -1,0 +1,110 @@
+.space{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: darkblue;
+    border: 3px black;
+    border-radius: 15px;
+}
+.malla{
+    display: grid;
+    grid-template-columns: 155.33px 155.33px 155.33px;
+    grid-template-rows: 157.33px 157.33px 157.33px;
+}
+.malla button{
+    outline: none;
+    cursor: pointer;
+}
+.tile1{
+    width: 157.33px;
+    height: 155.33px;
+    background: url("https://lh3.googleusercontent.com/OQZi4ckWAs7UrOlZEPefXZgJOcdJuSM5FSH9zqD5rMg6c2MOaxcKpV5IMrb1Tju98fWyNmcI33E4RGb0uC09Ej4W");
+    background-position: left top;
+    outline: none;
+    cursor: pointer;
+}
+.tile2 {
+    width: 157.33px;
+    height: 155.33px;
+    background: url("https://lh3.googleusercontent.com/OQZi4ckWAs7UrOlZEPefXZgJOcdJuSM5FSH9zqD5rMg6c2MOaxcKpV5IMrb1Tju98fWyNmcI33E4RGb0uC09Ej4W");
+    background-position: center top;
+    outline: none;
+    cursor: pointer;
+}
+.tile3 {
+    width: 157.33px;
+    height: 155.33px;
+    background: url("https://lh3.googleusercontent.com/OQZi4ckWAs7UrOlZEPefXZgJOcdJuSM5FSH9zqD5rMg6c2MOaxcKpV5IMrb1Tju98fWyNmcI33E4RGb0uC09Ej4W");
+    background-position: right top;
+    outline: none;
+    cursor: pointer;
+}
+.tile4 {
+    width: 157.33px;
+    height: 155.33px;
+    background: url("https://lh3.googleusercontent.com/OQZi4ckWAs7UrOlZEPefXZgJOcdJuSM5FSH9zqD5rMg6c2MOaxcKpV5IMrb1Tju98fWyNmcI33E4RGb0uC09Ej4W");
+    background-position: left center;
+    outline: none;
+    cursor: pointer;
+}
+.tile5 {
+    width: 157.33px;
+    height: 155.33px;
+    background: url("https://lh3.googleusercontent.com/OQZi4ckWAs7UrOlZEPefXZgJOcdJuSM5FSH9zqD5rMg6c2MOaxcKpV5IMrb1Tju98fWyNmcI33E4RGb0uC09Ej4W");
+    background-position: center center;
+    outline: none;
+    cursor: pointer;
+}
+.tile6 {
+    width: 157.33px;
+    height: 155.33px;
+    background: url("https://lh3.googleusercontent.com/OQZi4ckWAs7UrOlZEPefXZgJOcdJuSM5FSH9zqD5rMg6c2MOaxcKpV5IMrb1Tju98fWyNmcI33E4RGb0uC09Ej4W");
+    background-position: right center;
+    outline: none;
+    cursor: pointer;
+}
+.tile7 {
+    width: 157.33px;
+    height: 155.33px;
+    background: url("https://lh3.googleusercontent.com/OQZi4ckWAs7UrOlZEPefXZgJOcdJuSM5FSH9zqD5rMg6c2MOaxcKpV5IMrb1Tju98fWyNmcI33E4RGb0uC09Ej4W");
+    background-position: left bottom;
+    outline: none;
+    cursor: pointer;
+}
+.tile8 {
+    width: 157.33px;
+    height: 155.33px;
+    background: url("https://lh3.googleusercontent.com/OQZi4ckWAs7UrOlZEPefXZgJOcdJuSM5FSH9zqD5rMg6c2MOaxcKpV5IMrb1Tju98fWyNmcI33E4RGb0uC09Ej4W");
+    background-position: center bottom;
+    outline: none;
+    cursor: pointer;
+}
+.tile9 {
+    width: 157.33px;
+    height: 155.33px;
+    background: white;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.footer{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.footer button{
+    padding: 10px;
+    border: black;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 15px;
+    width: 90px;
+    outline: none;
+    cursor: pointer;
+}
+.footer button:hover{
+    background-image: linear-gradient(blue,red);
+}
