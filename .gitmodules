@@ -1,3 +1,6 @@
 [submodule "Taller semana 1 - Hoja de vida/CVJCPA"]
 	path = Taller semana 1 - Hoja de vida/CVJCPA
 	url = git@github.com:Sockshead/CVJCPA.git
+[submodule "Taller semana 2 - Sliding Puzzle/slidingPuzzle"]
+	path = Taller semana 2 - Sliding Puzzle/slidingPuzzle
+	url = git@github.com:Sockshead/slidingPuzzle.git
