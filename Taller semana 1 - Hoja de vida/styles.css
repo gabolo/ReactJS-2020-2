@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background: #dbf4a7;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.semi-bold{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.linea {
+    display: inline-flex;
+}
+.info{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+.info .info-izq{
+    width: 280px;
+    background: #0bb5f4
+}
+
+.info .info-izq .info-fotoPerfil{
+    width: 100%;
+    height: 280px;
+}
+
+.info .info-izq .info-fotoPerfil img{
+    width: 100%;
+    height: 100%;
+}
+
+.info .info-izq .info-descrip{
+    padding:0 25px;
+}
+
+.info .title{
+   margin-bottom: 20px;
+   
+}
+
+.info .info-izq .bold{
+    color: #fff;    
+}
+
+.info .info-izq .regular{
+    color: #fff;
+}
+
+.info .info_sobre{
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+
+.info .info-izq .info_sobre:last-child{
+    border-bottom: 0px;
+}
+
+.info .info-izq ul li{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info .info-izq ul li:last-child{
+    margin-bottom: 0;
+}
+.info .info-izq ul li .icon{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #b3679b;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+
+.info .info-derech .info-hobb ul li i,
+.info .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info .info-izq ul li .data{
+    color: #b1eaff;
+}
+
+.info .info-derech{
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+}
+
+.info .info-derech .bold{
+    color: #0bb5f4;
+}
+
+.info .info-derech .info-educ ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.info .info-derech ul li{
+    position: relative;
+}
+
+.info .info-derech ul li .fecha{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.info .info-derech ul li .info{
+    margin-bottom: 20px;
+}
+
+.info .info-derech ul li:last-child .info{
+    margin-bottom: 0;
+}
+
+.info .info-derech .info-educ ul li:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #b3679b;
+    background-color: #fff
+}
+
+.info .info-derech .info-educ ul li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 3px;
+    height: 115px;
+    background: #b3679b;
+}
+
+.info .info-derech .info_sobre:last-child{
+    border-bottom: 0px;
+}
+
+.info .info-derech .info-hobb ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .info-derech .info-hobb ul li{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #b3679b;
+    border-radius: 50%;
+    position: relative;
+    color: #084887;
+}
+
+.info .info-derech .info-hobb ul li i{
+    font-size: 30px;
+    
+}
+
+.info .info-derech .info-hobb ul li:before{
+    content: "";
+    position: absolute;
+    top: 36px;
+    right: -118px;
+    width: 118px;
+    height: 2px;
+    background: #b3679b;
+}
+
+.info .info-derech .info-hobb ul li:last-child:before{
+    display: none;
+}
+
+
+
+.info .info-derech .info-habs ul{
+    color: #084887;
+    justify-content: space-between;
+}
+
+.info .info-derech .info-habs {
+    display: inline;
+    background: #ff3333;
+}
+.info .info-derech .info-habs ul li .nomb-habs{
+    width: 15%;
+}
+
+.info .info-derech .info-habs ul li .prog-habs{
+    width: 90%;
+    margin: 1% 20px;
+    height: 10px;
+    background: #009fd9;
+    position: relative;
+}
+
+.info .info-derech .info-habs ul li .porc-habs{
+    width: 15%;
+}
+
+.info .info-derech .info-habs ul li .prog-habs span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #084887;
+}
