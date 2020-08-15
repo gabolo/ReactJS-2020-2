@@ -1,0 +1,66 @@
+/*
+	Ejemplo de un css
+*/
+
+*{ margin: 0; padding: 0; }*
+body { margin: 50px 0 0; background: #Black; font: .74em "Trebuchet MS", Arial, Sans-Serif; color: #444; }
+	h1 { font-size: 3em; font-weight: normal; float: left; }
+	h1 a { text-decoration: none; }
+	h2 { font-size: 2em; color: #FFF2B3; font-weight: normal; margin: 0 0 .8em; }
+	h3 { font-size: 1.5em; border-bottom: }
+	p  { margin: 0 0 2em 0; line-height: 1.8em; }
+	em { border-bottom: 1px dotted #fff; cursor: pointer; }
+	a { color: #9D2900; }
+	a:hover { color: #A0000E; text-decoration: none; }
+	img { border: 0; }
+	.red { color: #9D2900; }
+	
+.wrap { width: 900px; margin: 0 auto; }
+#header {width:100%; height: 500px; background-image: url("../images/header-bg.png")}
+/*#header { width: 500px; height: 20px; margin: 0 auto; }*/
+	
+#teaser { clear: both; height: 260px; width: 920px ;background: #5882E5 repeat-x; margin:auto;}
+	.box { float: left; padding: 100px 0 0; width: 600px; color: #FFFFFF; font-size: 20}
+
+#content { height: 100px; width: 920px ; background: #5882E5; margin:auto;position: relative; padding: 5}
+	.box2 {float: left; padding: 20px 0 0 0; width: 600px; color: #FFFFFF; font-size: 15}
+#content2 { height: 150px; width: 920px ; background: #5882E5; margin:auto;position: relative; padding: 5}
+	.box2 {float: left; padding: 20px 0 0 0; width: 600px; color: #FFFFFF; font-size: 15}
+#content3 { height: 140px; width: 920px ; background: #5882E5; margin:auto;position: relative; padding: 5}
+	.box2 {float: left; padding: 20px 0 0 0; width: 600px; color: #FFFFFF; font-size: 15}
+
+#image {background-image: url("../images/Daniel2.jpg"); background-size: 300px; width: 300px;height: 300px;position: relative; float: right; top:20px}
+	
+#bar { height: 40px;; background: #889BB3 repeat-x;width: 920px; margin: auto; }
+	.step { cursor: pointer; color: #FAFDDD; padding: 4px 0 0 11px; margin: 0 35px 0 0; font-size: 1.4em; float: left; text-align: center; background: url(../images/step.gif) no-repeat; height: 30px; }
+	.step a { color: #fff; margin: 0 10px 0 0; }
+	
+.col { float: left; width: 276px; margin: 0 30px 16px 0; }
+	.last { float: right; margin: 0; }
+	.info { border: 1px solid #e0e0e0; background: #f4f4f4; padding: 7px; }
+
+#intro { height: 80px; width: 800px; background:#5882E5 repeat-x;position: relative; margin: auto; border: blue 2px solid;padding: 20}
+.text { float: left; padding: 10px 0 0; width: auto; color: #FFFF; font-size: 10;text-align: center; }
+
+.footer-style {
+    padding-top: 50px;
+    background-color: #2C3E50;
+}
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+    font-weight: 800;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #2C3E50;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
