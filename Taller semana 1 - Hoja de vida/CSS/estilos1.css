@@ -1,0 +1,144 @@
+.foto1{
+	position: relative;
+	left: 80%;
+	bottom: 230%;
+	width: 300px;
+	margin: 0 auto 0 auto;
+	padding: 6px;
+	background-color: #000000;
+	color: #fff;
+	}
+	.foto1 img { max-width: 100%; }
+.thor{
+	margin: auto;
+	height: 320px;
+	padding: 70px 30px;
+	background: #00916E;
+	color: white;
+}
+
+.texto{
+	font-family: 'Mukta';
+	font-size: 15px;
+}
+
+.container{
+    margin-left: 50px;
+    display: block;
+    height: 150px;
+	width: 850px;
+	font-family: 'Mulish';
+	font-size: 15px;
+}
+.parrafo{
+	position: relative;
+	left: 15%;
+	margin-top: 50px;
+	text-align: center;
+    height: 250px;
+	width: 1000px;
+	background-color: rgba(236, 238, 238,0.6);
+	font-family: 'Quicksand';
+	font-size: 20px;
+	color: black;
+	padding-top: 50px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+.social-bar {
+	margin-top: 20px;
+	margin-left: 45px;
+	position: relative;
+	top: 40%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 1rem 0;
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+h2{
+	text-align: center;
+}
+
+label{
+	font-family: 'Open Sans Condensed';
+	font-size: 22px;
+	text-align: left;
+}
+
+#educacion{
+	text-align: left;
+	font-family: 'Open Sans Condensed';
+	font-size: 22px;
+	height: 550px;
+}
+
+.foto2{
+	position: relative;
+	left: 35%;
+	bottom: 70%;
+	width: 350px;
+	margin: 0 auto 0 auto;
+	padding: 6px;
+	background-color: #000000;
+	color: #fff;
+	}
+	.foto2 img { max-width: 100%; }
+
+#sub{
+		text-align: left;
+	}
