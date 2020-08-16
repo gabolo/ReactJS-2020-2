@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta author="Julian Mateo Ballesteros Rojas" />
+    <title>Slide Puzzle - Julian Ballesteros</title>
+    <meta
+      name="description"
+      content="Slide puzzle Julian Mateo Ballesteros Rojas - Desarrollo ReactJs"
+    />
+  </head>
+  <body onload="load()">
+    <div class="contaier">
+      <div class="guia">
+        <div id= "count" class="movimientos"></div>
+        <div class="img">
+            <img src="/assets/gandalf.jpg" alt="choka">
+            <p>Imagen Original</p>
+        </div>
+      </div>
+        
+      <div class="grid" >
+        <div id="tile1" onclick="move('tile1')" class="tiles imgcont1">1</div>
+        <div id="tile2" onclick="move('tile2')" class="tiles imgcont2">2</div>
+        <div id="tile3" onclick="move('tile3')" class="tiles imgcont3">3</div>
+        <div id="tile4" onclick="move('tile4')" class="tiles imgcont4">4</div>
+        <div id="tile5" onclick="move('tile5')" class="tiles imgcont5">5</div>
+        <div id="tile6" onclick="move('tile6')" class="tiles imgcont6">6</div>
+        <div id="tile7" onclick="move('tile7')" class="tiles imgcont7">7</div>
+        <div id="tile8" onclick="move('tile8')" class="tiles imgcont8">8</div>
+        <div id="tile9" onclick="move('tile9')" class="tiles imgcont9">9</div>
+        <div id="tile10" onclick="move('tile10')" class="tiles imgcont10">10</div>
+        <div id="tile11" onclick="move('tile11')" class="tiles imgcont11">11</div>
+        <div id="tile12" onclick="move('tile12')" class="tiles imgcont12">12</div>
+        <div id="tile13" onclick="move('tile13')" class="tiles imgcont13">13</div>
+        <div id="tile14" onclick="move('tile14')" class="tiles imgcont14">14</div>
+        <div id="tile15" onclick="move('tile15')" class="tiles imgcont15">15</div>
+        <div id="tile16" onclick="move('tile16')" class="tiles imgcont16">16</div>
+      </div>
+      <button class="Boton" onclick="setUp()">Start</button>
+    </div>
+  </body>
+</html>
