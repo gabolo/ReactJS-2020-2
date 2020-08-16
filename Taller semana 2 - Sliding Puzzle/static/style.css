@@ -1,0 +1,68 @@
+.boton_jugar{
+  color:red;
+
+}
+
+body  {
+    background-color:  white;
+    
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0;
+  padding-top: 200px;
+  width: 500px;
+  height: auto;
+}
+
+.grid .fichas {
+
+  margin: 1px;
+  padding: 0%;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  color: black;
+}
+
+
+.img_1 {
+  background-image: url("/static/putin.jpg");
+	background-position: top left;
+}
+.img_2 {
+  background-image: url("/static/putin.jpg");
+  background-position: top 15% center;
+  
+}
+.img_3 {
+  background-image: url("/static/putin.jpg");
+	background-position: top right;
+}
+.img_4 {
+  background-image: url("/static/putin.jpg");
+	background-position: center left;
+}
+.img_5 {
+  background-image: url("/static/putin.jpg");
+	background-position: center center;
+}
+.img_6 {
+  background-image: url("/static/putin.jpg");
+	background-position: center right;
+}
+.img_7 {
+  background-image: url("/static/putin.jpg");
+	background-position: bottom left;
+}
+.img_8 {
+  background-image: url("/static/putin.jpg");
+	background-position: bottom center;
+}
+.img_9 {
+  background-color: white;
+
+}
+
