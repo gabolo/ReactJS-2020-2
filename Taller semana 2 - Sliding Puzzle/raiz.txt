@@ -1,0 +1,14 @@
+function calcular(nume){
+   let emp=0;
+   let veri=0;
+        do{
+            emp +=1;
+            veri=emp*emp;
+          }while(nume>veri);
+        if(veri==nume){
+            return emp;
+        }else{
+            emp -=1;
+            return emp;
+        }    
+}

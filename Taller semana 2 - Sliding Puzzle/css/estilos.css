@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    background: radial-gradient(#8854d0,#7743C0,#061030);
+}
+h1{
+	margin-left: 40rem;
+    margin-top: 3rem;
+}
+table{
+	margin-top: 2rem;
+	margin-left: 35rem;
+	border-radius: 5px;
+	height: 300px;
+
+}
+td {
+	font-size:0px;
+}
+img{
+	width: 100px;
+	height: 100px;
+}
+

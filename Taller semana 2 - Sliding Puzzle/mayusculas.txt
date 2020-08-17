@@ -1,0 +1,11 @@
+function pasar(pala){
+    let mayu = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+    let nuev = [];
+    let sepa = pala.split("");
+    for (let i = 0; i < mayu.length; i++) {
+            if (pala[i]==mayu[i]){
+                  nuev.push(sepa[i]);
+            }
+    }
+    return nuev;
+}

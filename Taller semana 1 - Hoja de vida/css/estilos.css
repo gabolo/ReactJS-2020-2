@@ -1,0 +1,80 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+form,
+footer,
+header,
+menu,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+.lugar{
+	width: 100%;
+	background-color: black; 
+}
+#r1{    
+    animation:spin 4s linear infinite;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.lugar .cajap div{
+	padding: 20px 60px;
+	padding-top: 23px;
+	flex: 1;
+}
+.lugar .cajap {
+	display: flex;
+}
+.datos_prin{
+	position: absolute;
+	margin: -21em 27em;
+	background-color: rgba(204,204,204,1); 
+	font-size: 1rem;
+	border-radius: 15px;
+	width: 40%;
+	height: 51%;
+	padding: 20px;
+
+}
+.datos_prin .contenido div{
+	padding: 20px 46px;
+	padding-top: 23px;
+	flex: 1;
+}
+.datos_prin .contenido {
+	display: flex;
+}
+.lugar .contenido img{
+	border-radius: 20px;
+    position: absolute;
+    left: 0px;
+    top: 115px;
+    width: 56%;
+}
+.datos_prin .contenido .enlaces {
+	display: grid;
+}
+.conte{
+	
+	position: absolute;
+	margin: 11em 27em;
+	background-color: rgba(204,204,204,1); 
+	font-size: 1rem;
+	border-radius: 15px;
+	width: 40%;
+	height: 139%;
+	padding: 20px;
+}

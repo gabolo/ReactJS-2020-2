@@ -1,0 +1,12 @@
+function calcular(nume){
+    if (nume===0){
+        return 0;
+    }else{
+        let numer = nume-2;
+        return fibo(numer);
+    }
+}
+function fibo(numer) {
+          if (numer <= 1) return 1;
+              return fibo(numer - 1) + fibo(numer - 2);
+        }
