@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 15% 5%;
+
+}
+ .puzzle-piece{
+  height: 400px;
+   width: 534px;
+ }
+ .piece1 {
+   background-image:url(images/row-1-col-1.jpg);
+ }
+ 
+ .piece2 {
+   background-image:url(images/row-1-col-2.jpg);
+ }
+ .piece3{
+  background-image:url(images/row-1-col-3.jpg);
+ }
+ .piece4{
+  background-image:url(images/row-2-col-1.jpg);
+ }
+ .piece5{
+  background-image:url(images/row-2-col-2.jpg);
+ }
+ .piece6{
+  background-image:url(images/row-2-col-3.jpg);
+ }
+ .piece7{
+  background-image:url(images/row-3-col-1.jpg);
+ }
+ .piece8{
+  background-image:url(images/row-3-col-2.jpg);
+ }
+ .piece9{
+  background-image:url(images/row-3-col-3.jpg);
+ }
