@@ -1,0 +1,14 @@
+.new-post-form {
+    border: 1px solid #ccc;
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 50px;
+}
+
+.new-post-form input,
+.new-post-form textarea {
+    width: 100%;
+}
